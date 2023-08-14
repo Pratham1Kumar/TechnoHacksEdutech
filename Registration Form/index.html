@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website Registation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h2>CodeTantra LogON</h2>
+    <form aciton="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+
+        <div class="pre">Name</div>
+        <div class="formdesign" id="name">
+            <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="pre">Email ID</div>
+        <div class="formdesign" id="email">
+            <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="pre">Phone</div>
+        <div class="formdesign" id="phone">
+            <input type="phone" name="fphone" required><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="pre">Password</div>
+        <div class="formdesign" id="pass">
+            <input type="password" name="fpass" required><b><span class="formerror" </span></b>
+        </div>
+
+        <div class="pre">Confirm Password</div>
+        <div class="formdesign" id="cpass">
+            <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+        </div>
+
+        <input class="but" type="submit" value="SIGN UP/Register">
+
+    </form>
+
+</body>
+<script src="index.js"></script>
+
+</html>

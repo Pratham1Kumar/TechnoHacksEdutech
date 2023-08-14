@@ -1,0 +1,41 @@
+body {
+    background-image: url('bg.jpg');
+    padding: 10px 20px;
+    margin-left: 340px;
+}
+
+h2 {
+    font-weight: lighter;
+    color: aliceblue;
+}
+
+.pre {
+    color: aliceblue;
+    font-size: 16px;
+    margin-left: 8px;
+
+}
+
+.formdesign input {
+    width: 40%;
+    padding: 4px 8px;
+    border: 2px solid rgb(1, 1, 40);
+    margin: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.formerror {
+    color: red;
+}
+
+.but {
+    border: 1px solid red;
+    border-radius: 6px;
+    width: 374px;
+    height: 36px;
+    font-size: 14px;
+    margin: 10px;
+    background-color: rgb(230, 81, 81);
+    color: aliceblue;
+}
